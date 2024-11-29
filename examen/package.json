@@ -1,0 +1,17 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "Proyecto para pruebas unitarias con mocha y chai",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --reporter mochawesome"
+  },
+  "author": "Carlos Ignacio Hidalgo Hernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "mochawesome": "^7.1.3"
+  }
+}
